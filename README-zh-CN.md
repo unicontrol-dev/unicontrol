@@ -9,6 +9,11 @@ Unicontrol 是面向现代分布式架构设计的下一代治理解决方案，
 
 ---
 
+## 致谢
+特别感谢 [Redisson](https://github.com/redisson/redisson) 项目，它为 Unicontrol 提供了坚实的 Redis 分布式基础设施底座，极大地支撑了本项目的分布式治理能力。
+
+---
+
 ## 开源协议
 本项目采用 **BSD 3-Clause "New" or "Revised" License** 开源，详细条款请查阅 [LICENSE](LICENSE) 文件。
 
