@@ -1,0 +1,108 @@
+# ========== 你原有 IDEA 相关忽略规则 ==========
+# 默认忽略的文件
+/shelf/
+/.idea/workspace.xml
+# 已忽略包含查询文件的默认文件夹
+/queries/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# 基于编辑器的 HTTP 客户端请求
+/httpRequests/
+/.idea/
+
+# ========== 补充 IDEA 完整忽略项 ==========
+# IDEA 生成的索引文件
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+target/
+# 本地历史记录
+.idea/localHistory/
+# 代码风格配置（本地个性化）
+.idea/codeStyles/
+# 运行配置（本地环境相关）
+.idea/runConfigurations/
+# 调试配置
+.idea/debugger/
+# 插件配置
+.idea/plugins/
+# 终端配置
+.idea/terminal/
+
+# ========== Maven/Gradle 构建相关 ==========
+# Maven 编译输出
+target/
+# Gradle 构建目录（备用）
+.gradle/
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+# Maven 本地仓库缓存（避免提交）
+.mvn/
+# 构建日志
+log/
+logs/
+
+# ========== Java 项目通用忽略 ==========
+# 编译后的 class 文件
+*.class
+# Java 日志文件
+*.log
+*.trace
+# 压缩包
+*.zip
+*.tar.gz
+*.rar
+# 临时文件
+*.tmp
+*.temp
+# 系统临时文件
+.DS_Store       # Mac 系统
+Thumbs.db       # Windows 系统
+desktop.ini     # Windows 系统
+# 本地配置文件（含敏感信息）
+*.properties.local
+*.yml.local
+*.yaml.local
+application-dev.yml
+application-local.yml
+# 测试报告
+surefire-reports/
+failsafe-reports/
+
+# ========== 分布式项目补充（适配 Unicontrol） ==========
+# Redis 本地数据（若本地部署测试）
+*.rdb
+*.aof
+# 进程 pid 文件
+*.pid
+# 性能分析文件
+*.hprof
+# 日志滚动文件
+*.log.*
+# 临时配置/脚本
+scripts/tmp/
+config/local/
+# Docker 本地配置（若用容器开发）
+.dockerignore
+docker-compose.override.yml
+# 环境变量文件（含密钥/端口等敏感信息）
+.env
+.env.local
+.env.*.local
+
+# ========== 前端相关（若后续加 Web 模块） ==========
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+# 前端构建产物
+dist/
+build/
+# 前端缓存
+.cache/
+.eslintcache
