@@ -4,7 +4,7 @@ Unicontrol: A distributed unified governance framework with full-dimensional hig
 
 ## Introduction
 Unicontrol is a next-generation governance solution designed for modern distributed architectures. Centered on functional parameter-passing paradigms and underpinned by Redis as the distributed infrastructure foundation, it breaks through the controllability limitations of traditional AOP approaches with a white-box, transparent design philosophy. Unicontrol delivers full-dimensional, highly controllable, and scalable governance capabilities for cross-service control, state synchronization, and resource orchestration, making every behavior in the distributed system visible and precisely manageable.
-
+ 
 ## Acknowledgments
 Special thanks to the [Redisson](https://github.com/redisson/redisson) project for providing robust Redis-based distributed infrastructure foundations, which greatly empower the distributed governance capabilities of Unicontrol.
 
