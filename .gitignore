@@ -34,7 +34,6 @@ target/
 
 # ========== Maven/Gradle 构建相关 ==========
 # Maven 编译输出
-target/
 # Gradle 构建目录（备用）
 .gradle/
 build/
@@ -102,7 +101,6 @@ yarn-error.log
 pnpm-debug.log
 # 前端构建产物
 dist/
-build/
 # 前端缓存
 .cache/
 .eslintcache
